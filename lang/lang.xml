@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<languagesList>
+    <english title="Melanie Buchta">
+        <navBar>
+            <home>Home</home>
+            <music>Music Lessons</music>
+            <about>About</about>
+            <contact>Contact</contact>
+        </navBar>
+
+        <musicLessons>
+            <musicLessonsTitel>Music Lessons</musicLessonsTitel>
+            <musicLessonsText>
+                My offer is music lessons, early musical education,
+                experimental music concerts, sound concerts as well as 
+                vernissage openings with music.
+                My concern when teaching music is to provide the student (of any age) with an 
+                individual approach to music.
+                I teach violoncello, singing, recorder, melodica. 
+        
+                The individual music units are each adapted to the instrument
+                and are between 30 and 60 minutes.
+                Feel free to call or email me
+                for individual arrangements.
+            </musicLessonsText>
+        </musicLessons>
+
+        <aboutTitle>About me</aboutTitle>
+        <vita>
+              I have been making and teaching music continuously since 1997.
+              I teach music in music schools, kindergartens and privately.
+              In the field of performance, experimental music, sound music and
+              at openings, I work with various forms of artistic expression and
+              reproduce art, video, film and texts for the public on a musical level.
+              As the whole spectrum of music is close to my heart, a further offer of my musical activity is the
+              of my musical activity is the spiritual work with singing bowls.
+        </vita>    
+        <phoneTitel>Phone number</phoneTitel>
+        <emailTitel>E-mail address</emailTitel>    
+    </english>
+
+    <german title="Melanie Buchta">
+        <navBar>
+            <home>Home</home>
+            <music>Musikunterricht</music>
+            <about>Über</about>
+            <contact>Kontakt</contact>
+        </navBar>
+
+         <musicLessons>
+            <musicLessonsTitel>Musikunterricht</musicLessonsTitel>
+            <musicLessonsText>
+                Mein Angebot ist Musikunterricht, musikalische Frühförderung, 
+                experimentelle Musikkonzerte, Klangkonzerte sowie
+                Vernisage–Eröffnungen mit Musik.
+        
+                Mein Anliegen beim Unterrichten von Musik ist es dem Schüler (jeden
+                Alters) einen individuellen Zugang zur Musik zu ermöglichen.
+
+                Ich unterrichte Violoncello, Gesang, Blockflöte, Melodika. 
+
+                Die einzelnen Musikeinheiten sind jeweils dem Instrument angepasst
+                und betragen zwischen 30 und 60 Minuten.
+                Rufen Sie mich gerne an oder schreiben Sie
+                mir eine Email für individuelle Absprachen.
+            </musicLessonsText>
+        </musicLessons>
+
+        <aboutTitle>Über mich</aboutTitle>
+        <vita>
+            Seit 1997 habe ich ununterbrochen Musik gemacht und unterrichtet.
+            Ich unterrichte Musik in Musikschulen, Kindergärten und privat.Im
+            Performance Bereich, der Experimentellen Musik, Klangmusik und bei
+            Vernisagen arbeite ich mit verschiedenen künstlerischen
+            Ausdrucksformen zusammen und gebe Kunst, Video, Film und Texte für
+            die Öffentlichkeit auf der musikalischen Ebene wieder. Da mir das
+            ganze Spektrum der Musik am Herzen liegt ist ein weiteres Angebot
+            meiner musikalischen Tätigkeit die spirituelle Arbeit mit
+            Klangschalen.
+        </vita>
+        <phoneTitel>Telephonnummer</phoneTitel>
+        <emailTitel>E-Mail Adresse</emailTitel>
+    </german>
+
+
+    <french>
+        <navBar>
+            <home>Accueil</home>
+            <music>Cours de musique</music>
+            <about>À propos de</about>
+            <contact>Contact</contact>
+        </navBar>
+
+        <musicLessons>
+            <musicLessonsTitel>Cours de musique</musicLessonsTitel>
+            <musicLessonsText>
+                Je propose des cours de musique, des activités d'éveil musical, 
+                concerts de musique expérimentale, concerts sonores ainsi que
+                ouvertures de vernissages en musique.
+        
+                Mon objectif dans l'enseignement de la musique est d'offrir à l'élève (de tout âge) un accès individuel à la musique.
+                âge) une approche individuelle de la musique.
+    
+                J'enseigne le violoncelle, le chant, la flûte à bec et le mélodica. 
+
+                Les séances de musique sont adaptées à l'instrument et durent de 30 à 60 minutes.
+                et durent entre 30 et 60 minutes.
+                N'hésitez pas à m'appeler ou à m'écrire
+                pour des arrangements individuels.
+            </musicLessonsText>
+        </musicLessons>
+
+        <aboutTitle>À propos de moi</aboutTitle>
+        <vita>
+            Depuis 1997, je n'ai cessé de faire et d'enseigner la musique.
+            J'enseigne la musique dans des écoles de musique, 
+            des jardins d'enfants et en privé. Dans le domaine de la performance,
+            de la musique expérimentale, de la musique sonore et lors de 
+            vernissages, je collabore avec différentes formes d'expression artistique et
+            je restitue l'art, la vidéo, le film et les textes pour le public sur
+            le plan musical. Le travail spirituel avec des bols chantants est une
+            autre activité musicale qui me tient à cœur. 
+        </vita>
+        <phoneTitel>Numéro de téléphone</phoneTitel>
+        <emailTitel>Adresse e-mail</emailTitel>
+    </french>
+
+    <greek title="Melanie Buchta">
+        <navBar>
+            <home>Αρχική σελίδα</home>
+            <music>Μαθήματα μουσικής</music>
+            <about>Σχετικά με το</about>
+            <contact>Επικοινωνία</contact>
+        </navBar>
+
+        <musicLessons>
+            <musicLessonsTitel>Μαθήματα μουσικής</musicLessonsTitel>
+            <musicLessonsText>
+                Η προσφορά μου είναι μαθήματα μουσικής, πρώιμη μουσική εκπαίδευση, 
+                συναυλίες πειραματικής μουσικής, συναυλίες ήχου καθώς και
+                τελετές έναρξης με μουσική.
+        
+                Το μέλημά μου στη διδασκαλία της μουσικής είναι να δώσω στον μαθητή (κάθε ηλικίας) μια ατομική
+                ηλικία) να έχουν μια ατομική προσέγγιση στη μουσική.
+    
+                Διδάσκω βιολοντσέλο, τραγούδι, φλογέρα και μελόντικα. 
+
+                Οι επιμέρους μουσικές μονάδες προσαρμόζονται στο όργανο
+                και διαρκούν μεταξύ 30 και 60 λεπτών.
+                Μη διστάσετε να μου τηλεφωνήσετε ή να μου γράψετε
+                στείλτε μου email για ατομικές ρυθμίσεις.
+            </musicLessonsText>
+        </musicLessons>
+
+        <aboutTitle>Σχετικά με εμένα</aboutTitle>
+        <vita>
+            Κάνω και διδάσκω μουσική συνεχώς από το 1997.
+              Διδάσκω μουσική σε μουσικά σχολεία, νηπιαγωγεία και ιδιωτικά.
+              Στον τομέα της περφόρμανς, της πειραματικής μουσικής, της ηχητικής μουσικής και των
+              Εργάζομαι με διάφορες μορφές καλλιτεχνικής έκφρασης και
+              τέχνη, βίντεο, ταινίες και κείμενα για το κοινό σε μουσικό επίπεδο.
+              κείμενα για το κοινό σε μουσικό επίπεδο. Δεδομένου ότι η
+              ολόκληρο το φάσμα της μουσικής είναι κοντά στην καρδιά μου, μια περαιτέρω προσφορά της μουσικής μου
+              της μουσικής μου δραστηριότητας είναι η πνευματική εργασία με τα singing bowls.
+        </vita>        
+        <phoneTitel>Αριθμός τηλεφώνου</phoneTitel>
+        <emailTitel>Διεύθυνση ηλεκτρονικού ταχυδρομείου</emailTitel>
+    </greek>
+</languagesList>

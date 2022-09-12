@@ -1,0 +1,40 @@
+.music-lessons {
+  min-height: 20vh;
+  width: 100%;
+  padding: 1rem;
+  background-color: blueviolet;
+  background-image: url(../imgs/cello.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  h2 {
+    font-family: "Pinyon Script", cursive;
+    font-size: 3rem;
+    padding: 2rem;
+    padding-bottom: 0px;
+  }
+}
+
+.music-lesson-boxes {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  div {
+    // flex: 1 1 2rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+}

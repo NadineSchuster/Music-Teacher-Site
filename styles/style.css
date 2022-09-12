@@ -1,0 +1,681 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  margin-top: 7vh;
+  margin-bottom: 2rem;
+  height: 100vh;
+  position: relative;
+}
+
+#head h1 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 7em;
+  padding: 2rem;
+}
+
+#head .main-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#quote {
+  z-index: 2;
+  height: auto;
+  margin-bottom: 4vh;
+  font-family: "Pinyon Script", cursive;
+  color: #111111;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#quote h1 {
+  font-size: 10vh;
+}
+
+#quote h3 {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+#quote h3:nth-child(2) {
+  font-size: 3vh;
+  margin-left: 17%;
+}
+
+#quote h3:nth-child(3) {
+  margin-top: 7%;
+  font-size: 1.5vh;
+  margin-right: 2rem;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 30rem;
+  width: 50rem;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+.slide .content {
+  position: absolute;
+  bottom: 70px;
+  left: -600px;
+  opacity: 0;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 35px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+}
+
+.slide.current .content {
+  opacity: 1;
+  -webkit-transform: translateX(600px);
+          transform: translateX(600px);
+  -webkit-transition: all 0.7s ease-in-out 0.3s;
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.slide:first-child {
+  background: url("../imgs/Grey_Wall_Background.jpg") no-repeat center center/cover;
+}
+
+.slide:nth-child(2) {
+  background: url("../imgs/mel_03.jpg") no-repeat center top/cover;
+}
+
+.slide:nth-child(3) {
+  background: url("../imgs/mel_02.jpg") no-repeat center top/cover;
+}
+
+.circles {
+  position: absolute;
+  bottom: 4vh;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.circles li {
+  width: 18px;
+  height: 18px;
+  /* margin: .3rem; */
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  border: 2.5px solid #616161;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: background-color 0.7s ease-in-out;
+  transition: background-color 0.7s ease-in-out;
+  -webkit-transition: border 0.5s ease-out;
+  transition: border 0.5s ease-out;
+}
+
+.circles li.colored {
+  background-color: #202020;
+  border-color: #202020;
+}
+
+.circles li:hover {
+  background-color: #535353;
+}
+
+.music-lessons {
+  min-height: 20vh;
+  width: 100%;
+  padding: 1rem;
+  background-color: blueviolet;
+  background-image: url(../imgs/cello.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.music-lessons h2 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 3rem;
+  padding: 2rem;
+  padding-bottom: 0px;
+}
+
+.music-lesson-boxes {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.music-lesson-boxes div {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+/* About and Vita */
+.about {
+  min-height: auto;
+  padding: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* position: relative; */
+}
+
+.vita-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  margin: 1rem;
+  margin-top: 3rem;
+  background-color: #fff;
+}
+
+.vita {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 20rem;
+          flex: 2 1 20rem;
+}
+
+.vita h2 {
+  padding-top: 2rem;
+  font-family: "Pinyon Script", cursive;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.vita img {
+  height: 30vh;
+  width: 30vh;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+
+.vita-text {
+  text-align: center;
+  line-height: 4vh;
+}
+
+.vita-text p {
+  font-size: 1.5rem;
+}
+
+.contact-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+}
+
+.contact {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contactBox:first-child {
+  padding-right: 0.7rem;
+}
+
+.contactBox {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  min-width: 3rem;
+  min-height: 3rem;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #111111;
+}
+
+.contactInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 300;
+}
+
+.contactInfo h3 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+
+/* footer */
+footer {
+  margin-top: 1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1rem;
+  height: auto;
+  background-color: #111111;
+  -webkit-transition: height 0.5s ease-in-out;
+  transition: height 0.5s ease-in-out;
+}
+
+footer a,
+footer p {
+  text-align: center;
+  color: #fff;
+  padding-right: 2rem;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  background-color: #111111;
+  color: #fff;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-in-out;
+  transition: -webkit-box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out, -webkit-box-shadow 0.5s ease-in-out;
+}
+
+.accordion-item-header {
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  min-height: 3.5rem;
+  line-height: 1.25rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.accordion-item-header.active {
+  color: #fff;
+}
+
+.accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 1s ease-in-out;
+  transition: max-height 1s ease-in-out;
+}
+
+.accordion-item-body-content {
+  padding: 1rem;
+  line-height: 1.5rem;
+  border-top: 3px solid #34495e;
+  -o-border-image: linear-gradient(to right, transparent, black, transparent) 1;
+     border-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(black), to(transparent)) 1;
+     border-image: linear-gradient(to right, transparent, black, transparent) 1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #111111;
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  z-index: 200;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+header.sticky {
+  padding: 10px 50px;
+  background-color: rgba(17, 17, 17, 0.5);
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 7vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav h1 {
+  font-family: "Pinyon Script", cursive;
+  -webkit-box-flex: 2.5;
+      -ms-flex: 2.5 1 20rem;
+          flex: 2.5 1 20rem;
+  font-size: 1.7rem;
+  color: white;
+  padding-left: 5%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+nav ul {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1rem;
+}
+
+nav ul li a {
+  color: white;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+nav ul li a:hover {
+  color: #53e8ff;
+}
+
+#language {
+  position: absolute;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(17, 17, 17, 0.5);
+  position: absolute;
+  top: 7vh;
+  right: 0;
+  z-index: 7;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+header.sticky #language {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+nav button {
+  background-color: black;
+  border-radius: 0px;
+  border: none;
+  position: relative;
+}
+
+nav button,
+#language li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.2rem;
+  width: 2rem;
+  margin: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+nav button img,
+#language li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 760px) {
+  header nav {
+    text-align: center;
+  }
+  nav ul {
+    display: none;
+  }
+  #head {
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  #main-header {
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  #quote {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  #head .main-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    padding: 0px;
+    margin: 0px;
+  }
+  #music .music-lesson-boxes p {
+    font-size: medium;
+  }
+  .vita-text,
+  .vita-card,
+  .vita {
+    margin: 0px;
+    padding: 0px;
+  }
+  .vita-text p {
+    margin: 0px;
+    padding: 0px;
+    word-wrap: break-word;
+    font-size: medium;
+  }
+  #kontakt .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactBox:first-child {
+    margin-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

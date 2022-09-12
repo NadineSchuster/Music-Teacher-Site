@@ -1,0 +1,89 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 30rem;
+  width: 50rem;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+.slide .content {
+  position: absolute;
+  bottom: 70px;
+  left: -600px;
+  opacity: 0;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 35px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+// .slide:first-child {
+//   background: url("../imgs/Herbst.jpg") no-repeat center center/cover;
+// }
+
+.slide:first-child {
+  background: url("../imgs/Grey_Wall_Background.jpg") no-repeat center
+    center/cover;
+}
+
+.slide:nth-child(2) {
+  background: url("../imgs/mel_03.jpg") no-repeat center top/cover;
+}
+
+.slide:nth-child(3) {
+  background: url("../imgs/mel_02.jpg") no-repeat center top/cover;
+}
+
+.circles {
+  position: absolute;
+  bottom: 4vh;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  display: flex;
+}
+
+.circles li {
+  width: 18px;
+  height: 18px;
+  /* margin: .3rem; */
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  border: 2.5px solid #616161;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.7s ease-in-out;
+  transition: border 0.5s ease-out;
+}
+
+.circles li.colored {
+  background-color: #202020;
+  border-color: #202020;
+}
+
+.circles li:hover {
+  background-color: #535353;
+}
